@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaWordpress } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import {SiLeetcode} from 'react-icons/si'
@@ -42,6 +42,15 @@ const SocialLinks = () => {
             ),
             href: 'https://leetcode.com/umeshsakinala',
         },
+        {
+            id: 5,
+            child: (
+                <>
+                    Blog <FaWordpress size={30} />
+                </>
+            ),
+            href: 'https://umeshchandra.in/'
+        }
         // {
         //     id: 5,
         //     child: (

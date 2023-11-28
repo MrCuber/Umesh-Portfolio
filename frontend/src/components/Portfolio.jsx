@@ -1,4 +1,5 @@
 import React from 'react'
+import flixxapp from '../assets/portfolio/flixxapp.png'
 import billingsystem from '../assets/portfolio/BillingSystem.png'
 import approvalhub from '../assets/portfolio/Approval_Hub.png'
 import amazonReview from '../assets/portfolio/Amazon_Product_Reviews_Chatbot.png'
@@ -35,6 +36,12 @@ const Portfolio = () => {
           href:'https://github.com/MrCuber/Approval-Hub',
           demo: '#'
         },
+        {
+          id: 6,
+          src: flixxapp,
+          href: 'https://github.com/MrCuber/Flixx-App',
+          demo:'https://flixx-app-three.vercel.app/',
+        }
       ];
   return (
     <div
